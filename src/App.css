@@ -1,0 +1,28 @@
+* { border: 1px solid red !important; }
+
+html, body {
+  height: 100%;
+
+  margin: 0;
+}
+
+html {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.content {
+  min-height: 100dvh;
+  min-width: 100vh;
+}
+
+.loading {
+  margin: 0;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}

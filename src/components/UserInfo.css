@@ -1,0 +1,7 @@
+.user-info {
+  margin: 1rem;
+}
+
+.user-info > p {
+  margin: 0;
+}

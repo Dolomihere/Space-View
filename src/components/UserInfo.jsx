@@ -20,7 +20,7 @@ export function UserInfo() {
   }, []);
 
   if (!timezone) {
-    return <div className="user-info">Loading...</div>;
+    return <div className="user-info">Loading your timezone...</div>;
   }
 
   return (

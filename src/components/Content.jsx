@@ -10,9 +10,13 @@ export function Content(props) {
   return(
   <>
     <main className="content" >
-      <div className="bg-img">
-        <UserInfo></UserInfo>
-        <Title goBackOneDay={goBackOneDay} goForwardOneDay={goForwardOneDay} formattedDate={formattedDate} imageUrl={imageUrl} data={data}></Title>
+      <div className="img-frame">
+        <img className='img' src={imageUrl} alt="space-img" />
+      </div>
+
+      <UserInfo></UserInfo>
+      <Title goBackOneDay={goBackOneDay} goForwardOneDay={goForwardOneDay} formattedDate={formattedDate} imageUrl={imageUrl} data={data}></Title>
+      <div className="side-grid">
         <Sidebar data={data}></Sidebar>
       </div>
     </main>

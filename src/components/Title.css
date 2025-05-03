@@ -1,0 +1,10 @@
+.big-title {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: end;
+
+  margin: 0 1rem;
+}
