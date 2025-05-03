@@ -17,10 +17,14 @@
   justify-content: space-between;
 }
 
+.flip-btn button {
+  padding: 1rem;
+}
+
 .side-grid {
   grid-area: 1 / 1 / -1 / -1;
 
-  margin: 3rem;
+  margin: 1rem;
 
   position: relative;
 }
@@ -52,7 +56,7 @@
 }
 
 @media (min-width: 767px) and (max-width: 2000px) {
-  .sidebar {
-    grid-area: 3 / 2 / -1 / -1;
+  .flip-btn button {
+    padding: 0.5rem;
   }
 }

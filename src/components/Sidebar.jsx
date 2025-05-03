@@ -23,7 +23,7 @@ export function Sidebar({ data }) {
 
             <li>
               <p className="explanation">
-                {data?.explanation || "Woah you get error when loading? ... Tooooo bad enjoy this Shimeji picture while waiting!!!"}
+                {data?.explanation || "Woah you get error when loading? ... Tooooo bad enjoy this Shimeji picture while waiting!!! Also did you know that every 60 seconds passed, 1 minute is pass on the earth"}
               </p>
             </li>
 

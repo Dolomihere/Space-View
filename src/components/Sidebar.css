@@ -1,4 +1,6 @@
 .info-text {
+  color: #FFFFFF;
+
   list-style: none;
 
   margin: 0;
@@ -10,8 +12,18 @@
   padding: 5px;
 }
 
+.title {
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+
+  margin: 0;
+}
+
+.explanation {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .card-info {
-  background-color: bisque;
+  background-color: #2F4F4F;
 }
 
 .sidebar {

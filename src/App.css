@@ -11,9 +11,13 @@ html {
 .content {
   min-height: 100dvh;
   min-width: 100vh;
+
+  background-color: black;
 }
 
 .loading {
+  color: white;
+
   margin: 0;
 }
 

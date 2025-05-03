@@ -1,4 +1,8 @@
 .big-title {
+  color: #FFFFFF;
+
+  font-family: 'Courier New', Courier, monospace;
+  
   list-style: none;
 
   display: flex;
@@ -7,4 +11,8 @@
   justify-content: end;
 
   margin: 0 1rem;
+}
+
+a {
+  color: white;
 }
