@@ -1,0 +1,19 @@
+.bg-img {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100dvh;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: flex-end;
+  justify-content: space-between;
+
+  min-height: 100dvh;
+}

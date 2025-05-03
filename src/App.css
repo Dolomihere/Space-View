@@ -1,0 +1,23 @@
+html {
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #000000, #0d1b2a);
+  
+  height: 100vh;
+
+  margin: 0;
+
+  padding: 0;
+
+  position: relative;
+}
+
+.container {
+  display: flex;
+
+  align-items: end;
+}
