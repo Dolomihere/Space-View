@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 
 import './Sidebar.css'
 
-export function Sidebar() {
+export function Sidebar({ data }) {
   const [showModal, setShowModal] = useState(false);
 
   return(
@@ -17,14 +17,13 @@ export function Sidebar() {
 
             <li>
               <h2 className="title">
-                Shimeji
+                {data?.title || "Shimeji !!!"}
               </h2>
             </li>
 
             <li>
               <p className="explanation">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum dolorum neque dolores consequatur voluptatum ratione, eligendi quisquam aspernatur, nisi excepturi earum odit quas nam quasi ut illo debitis optio iste?
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt blanditiis fugit qui id accusamus similique aliquam voluptate fuga maiores adipisci, earum suscipit fugiat maxime alias corrupti quaerat exercitationem provident odio.
+                {data?.explanation || "Woah you get error when loading? ... Tooooo bad enjoy this Shimeji picture while waiting!!!"}
               </p>
             </li>
 
