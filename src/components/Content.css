@@ -15,6 +15,9 @@
   display: flex;
   align-self: center;
   justify-content: space-between;
+
+  z-index: 1;
+  padding: 1rem;
 }
 
 .flip-btn button {

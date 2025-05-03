@@ -24,6 +24,8 @@
 
 .card-info {
   background-color: #2F4F4F;
+
+  border-radius: 0.5rem;
 }
 
 .sidebar {
@@ -31,4 +33,6 @@
 
   bottom: 0;
   right: 0;
+
+  z-index: 1;
 }
