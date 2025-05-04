@@ -25,8 +25,10 @@ export function UserInfo() {
 
   return (
     <div className="user-info">
-      <p>Your Timezone is: {timezone}</p>
-      <p>Current Time: {time.toLocaleTimeString('en-US', { timeZone: timezone })}</p>
+      <div className='info-bg'>
+        <p>Your Timezone is: {timezone}</p>
+        <p>Current Time: {time.toLocaleTimeString('en-US', { timeZone: timezone })}</p>
+      </div>
     </div>
   );
 }

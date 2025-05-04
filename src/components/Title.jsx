@@ -14,17 +14,20 @@ export function Title(props) {
       </button>
     </div>
 
-    <ul className="big-title">
+    <div className="big-title">
+      <ul className="list">
 
-      <li className="date-title">{formattedDate}</li>
+        <li className="date-title">{formattedDate}</li>
 
-      <li className="title">{data?.title || 'Helloww silly!!'}</li>
+        <li className="title">{data?.title || 'Helloww silly!!'}</li>
 
-      <li className="img-url">
-        <span className="link-txt">Image link: </span>
-        <a href={imageUrl}>{imageUrl}</a>
-      </li>
-    </ul>
+        <li className="img-url">
+          <span className="link-txt">Image link: </span>
+          <a href={imageUrl}>{imageUrl}</a>
+        </li>
+        
+      </ul>
+    </div>
   </>
   )
 }

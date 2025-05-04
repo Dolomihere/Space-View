@@ -16,16 +16,20 @@
   font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 
   margin: 0;
+  padding: 0.5rem;
 }
 
 .explanation {
   font-family: 'Courier New', Courier, monospace;
+
+  margin: 0;
+  padding: 0.5rem;
 }
 
 .card-info {
   background-color: #2F4F4F;
 
-  border-radius: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .sidebar {
@@ -35,6 +39,8 @@
   right: 0;
 
   z-index: 1;
+
+  padding: 1rem 1rem 0 1rem;
 }
 
 .btn-info-under {

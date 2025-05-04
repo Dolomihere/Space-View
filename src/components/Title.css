@@ -2,19 +2,30 @@
   color: #FFFFFF;
 
   font-family: 'Courier New', Courier, monospace;
-  
+
+  margin: 0;
+  padding: 0 0.5rem;
+
+  align-self: flex-end;
+}
+
+.list {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  border-radius: 1rem;
+
   list-style: none;
 
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
 
-  justify-content: end;
-
-  margin: 0 1rem;
+.list > li {
+  padding: 0.5rem;
 }
 
 .img-url {
-  z-index: 10;
+  z-index: 1;
 }
 
 a {
@@ -23,5 +34,5 @@ a {
   white-space: normal;
   word-wrap: break-word;
 
-  z-index: 10;
+  z-index: 1;
 }

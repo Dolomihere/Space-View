@@ -6,7 +6,7 @@
 }
 
 .user-info {
-  grid-area: 1 / 1 / 2 / 4;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
 .flip-btn {
@@ -33,11 +33,7 @@
 }
 
 .big-title {
-  grid-area: 3 / 1 / -1 / -1;
-
-  margin: 1rem;
-
-  padding: 0;
+  grid-area: 3 / 1 / 4 / 3;
 }
 
 .img-frame {
