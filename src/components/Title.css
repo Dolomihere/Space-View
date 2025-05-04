@@ -24,15 +24,9 @@
   padding: 0.5rem;
 }
 
-.img-url {
-  z-index: 1;
-}
-
 a {
   color: white;
 
   white-space: normal;
   word-wrap: break-word;
-
-  z-index: 1;
 }

@@ -16,7 +16,6 @@
   align-self: center;
   justify-content: space-between;
 
-  z-index: 1;
   padding: 1rem;
 }
 
@@ -30,6 +29,13 @@
   grid-area: 1 / 1 / -1 / -1;
 
   position: relative;
+
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+
+  z-index: 1;
 }
 
 .big-title {
