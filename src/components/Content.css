@@ -22,12 +22,12 @@
 
 .flip-btn button {
   padding: 1rem;
+  border-radius: 100%;
+  border: none;
 }
 
 .side-grid {
   grid-area: 1 / 1 / -1 / -1;
-
-  margin: 1rem;
 
   position: relative;
 }
@@ -43,8 +43,8 @@
 .img-frame {
   grid-area: 1 / 1 / -1 / -1;
 
-  min-height: 100%;
-  min-width: 100%;
+  height: 100%;
+  width: 100%;
 
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@
 
 .img {
   height: 100vh;
-  width: auto;
+  width: 100%;
   object-fit: contain;
   display: block;
 }
