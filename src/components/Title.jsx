@@ -19,10 +19,10 @@ export function Title(props) {
 
         <li className="date-title">{formattedDate}</li>
 
-        <li className="title">{data?.title || 'Helloww silly!!'}</li>
+        <li className="title">{data?.title || 'Helloww silly NASA currently don’t have this media!!'}</li>
 
         <li className="img-url">
-          <span className="link-txt">Image link: </span>
+          <span className="link-txt">Media link: </span>
           <a href={imageUrl}>{imageUrl}</a>
         </li>
         

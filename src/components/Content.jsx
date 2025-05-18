@@ -7,11 +7,20 @@ import './Content.css'
 export function Content(props) {
   const { imageUrl, goBackOneDay, goForwardOneDay, formattedDate, data } = props;
 
+  const IsImageSrcEmpty = (src) => !src || src.trim() === "";
+
   return(
   <>
     <main className="content" >
       <div className="img-frame">
-        <img className='img' src={imageUrl} alt="space-img" />
+        
+        { !IsImageSrcEmpty(imageUrl) ? (
+            <img className='img' src={imageUrl} alt="space-img" />
+          ) : (
+            <p className="warn-info">No image available</p>
+          )
+        }
+
       </div>
 
       <UserInfo></UserInfo>

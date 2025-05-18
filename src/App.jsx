@@ -5,7 +5,7 @@ import { Content } from './components/Content'
 import './App.css'
 
 function App() {
-  const [image, setImage] = useState('/Shimeji-play-ground.png');
+  const [image, setMedia] = useState('/Shimeji-play-ground.png');
   const [currentDate, setCurrentDate] = useState(new Date());
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -33,10 +33,14 @@ function App() {
 
         setData(apiData);
 
-        if (apiData.media_type === "image") {
-          setImage(apiData.url);
-        } else {
-          setImage('/Shimeji-play-ground.png');
+        if (apiData.media_type === 'image') {
+          setMedia(apiData.url);
+        }
+        else if (apiData.media_type === 'other') {
+          setMedia(apiData.url);
+        }
+        else {
+          setMedia('/Shimeji-play-ground.png');
         }
 
         console.log('DATA\n', apiData);
